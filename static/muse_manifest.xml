@@ -1,20 +1,13 @@
-<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="anami.com.co" resolutions="1x" timestamp="1471626867917">
+<manifest alg="2" build="2015.2.1.352" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive" exportTarget="other" domain="anami.com.co" resolutions="1x" timestamp="1471640293435">
   <folder name="css">
     <file name="site_global.css" crc="3916556066"/>
-    <file name="master_a-master.css" crc="4072095574" ref="contactos:productos:index:blog:anamí:boletín"/>
-    <file name="nomq_preview_master_a-master.css" crc="3972741560" ref="contactos:productos:index:blog:anamí:boletín"/>
-    <file name="contactos.css" crc="474151323" ref="contactos"/>
-    <file name="nomq_contactos.css" crc="4238848710" ref="contactos"/>
-    <file name="productos.css" crc="474151323" ref="productos"/>
-    <file name="nomq_productos.css" crc="4238848710" ref="productos"/>
-    <file name="index.css" crc="474151323" ref="index"/>
-    <file name="nomq_index.css" crc="4238848710" ref="index"/>
-    <file name="blog.css" crc="474151323" ref="blog"/>
-    <file name="nomq_blog.css" crc="4238848710" ref="blog"/>
-    <file name="anam_.css" crc="474151323" ref="anamí"/>
-    <file name="nomq_anam_.css" crc="4238848710" ref="anamí"/>
-    <file name="bolet_n.css" crc="474151323" ref="boletín"/>
-    <file name="nomq_bolet_n.css" crc="4238848710" ref="boletín"/>
+    <file name="master_a-master.css" crc="129514842" ref="blog:anamí:contactos:index:boletín:productos"/>
+    <file name="blog.css" crc="3966788406" ref="blog"/>
+    <file name="anam_.css" crc="3966788406" ref="anamí"/>
+    <file name="contactos.css" crc="3966788406" ref="contactos"/>
+    <file name="index.css" crc="3966788406" ref="index"/>
+    <file name="bolet_n.css" crc="3966788406" ref="boletín"/>
+    <file name="productos.css" crc="3966788406" ref="productos"/>
   </folder>
   <folder name="scripts">
     <file name="jquery-1.8.3.min.js" crc="169078940" ref="index:anamí:productos:contactos:blog:boletín"/>
@@ -24,19 +17,15 @@
     <file name="pie.js" crc="3831537696" ref="index"/>
     <file name="jquery.musemenu.js" crc="4150485998" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="jquery.watch.js" crc="3842844514" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="271560940" ref="index"/>
-    <file name="webpro.js" crc="4067903014" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="musewpdisclosure.js" crc="338211507" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="html5shiv.js" crc="4241844378" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="jquery.museresponsive.js" crc="516761069" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="require.js" crc="4108833657" ref="index:anamí:productos:contactos:blog:boletín"/>
   </folder>
   <folder name="images">
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-imagen-banner.jpg" crc="4151081041" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="leftmensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-banner.png" crc="3821764457" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-superior-u219.png" crc="15017676" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="home-slogan.png" crc="3918115368" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-banner.png" crc="4101998797" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
+    <file name="leftmensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-banner.png" crc="3821764457" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
+    <file name="home-slogan.png" crc="3918115368" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
+    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-superior-u219.png" crc="15017676" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-izquierdo-footer.png" crc="205811260" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-linea-punteada-footer-1.png" crc="4119685537" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-anami-footer.png" crc="64926581" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
@@ -45,19 +34,11 @@
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-instagram-anami-u1823.png" crc="95468281" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-youtube-anami-u1845.png" crc="924949" ref="index:anamí:productos:contactos:blog:boletín"/>
     <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-footer.png" crc="4122074249" seo="true" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-linea-punteada-footer-1-crop-u537.png" crc="57805019" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-linea-punteada-footer-1-crop-u547.png" crc="57805019" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-imagen-banner-crop-u123.jpg" crc="4226371532" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="menu.png" crc="3987806730" ref="index"/>
-    <file name="backarrow.png" crc="341105061" ref="index"/>
-    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-banner-crop-u133.png" crc="4185368542" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-footer-crop-u514.png" crc="278093548" ref="index:anamí:productos:contactos:blog:boletín"/>
-    <file name="blank.gif" crc="4208392903" ref="index:anamí:productos:contactos:blog:boletín"/>
   </folder>
-  <file name="index.html" crc="3832079002" seo="true" mt="1471112776143" redirect="true"/>
-  <file name="anamí.html" crc="4197077463" seo="true" mt="1471112776143" redirect="true"/>
-  <file name="productos.html" crc="171423578" seo="true" mt="1471112776143" redirect="true"/>
-  <file name="contactos.html" crc="4011542782" seo="true" mt="1471112776143" redirect="true"/>
-  <file name="blog.html" crc="157468571" seo="true" mt="1471112776143" redirect="true"/>
-  <file name="boletín.html" crc="4280055321" seo="true" mt="1471112776143" redirect="true"/>
+  <file name="index.html" crc="184552032" seo="true" mt="1471640291456" redirect="true"/>
+  <file name="anamí.html" crc="3785570550" seo="true" mt="1471640291456" redirect="true"/>
+  <file name="productos.html" crc="4051556524" seo="true" mt="1471640291456" redirect="true"/>
+  <file name="contactos.html" crc="317342897" seo="true" mt="1471640291456" redirect="true"/>
+  <file name="blog.html" crc="315382028" seo="true" mt="1471640291456" redirect="true"/>
+  <file name="boletín.html" crc="3843849458" seo="true" mt="1471640291456" redirect="true"/>
 </manifest>
