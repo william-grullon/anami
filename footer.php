@@ -13,13 +13,38 @@
 
 	</div><!-- #content -->
 
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'anami' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'anami' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'anami' ), 'anami', '<a href="http://anami.com.co" rel="designer">William Grullon</a>' ); ?>
-		</div><!-- .site-info -->
+	<footer>
+			<div class="clip_frame grpelem shared_content" id="u504" data-content-guid="u504_content"><!-- image -->
+			<img class="block temp_no_img_src" id="u504_img" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-izquierdo-footer.png?crc=205811260" alt="" width="234" height="316" src="images/blank.gif?crc=4208392903"/>
+			</div>
+			<div class="clip_frame grpelem" id="u537"><!-- image -->
+			<img class="block temp_no_img_src" id="u537_img" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-linea-punteada-footer-1.png?crc=4119685537" alt="" data-image-width="297" data-image-height="3" src="images/blank.gif?crc=4208392903"/>
+			</div>
+			<div class="clearfix grpelem" id="pu547"><!-- column -->
+			<div class="clip_frame colelem" id="u547"><!-- image -->
+			<img class="block temp_no_img_src" id="u547_img" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-linea-punteada-footer-1.png?crc=4119685537" alt="" data-image-width="297" data-image-height="3" src="images/blank.gif?crc=4208392903"/>
+			</div>
+			<a class="nonblock nontext MuseLinkActive clearfix colelem shared_content" id="u1861-8" href="index.html" data-content-guid="u1861-8_content"><!-- content --><p><span id="u1861">© 2016</span> Todos los derechos reservados,</p><p><span id="u1861-4">Anamí</span>, Medellín - Colombia.</p></a>
+			</div>
+			<a class="nonblock nontext MuseLinkActive clip_frame grpelem shared_content" id="u524" href="index.html" data-content-guid="u524_content"><!-- image --><img class="block temp_no_img_src" id="u524_img" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-anami-footer.png?crc=64926581" alt="" width="221" height="85" src="images/blank.gif?crc=4208392903"/></a>
+			<div class="clearfix grpelem" id="pu1858-4"><!-- column -->
+			<div class="clearfix colelem shared_content" id="u1858-4" data-content-guid="u1858-4_content"><!-- content -->
+			<h2><h2 id="u1858">Síguenos en:</h2></h2>
+			</div>
+			<div class="clearfix colelem" id="u1855"><!-- group -->
+			<a class="nonblock nontext grpelem" id="u1815" href="http://www.facebook.com"><!-- rasterized frame --><img class="temp_no_img_src" id="u1815_img" alt="" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-facebook-anami-u1815.png?crc=106572820" data-image-width="25" src="images/blank.gif?crc=4208392903"/></a>
+			<a class="nonblock nontext grpelem" id="u1830" href="http://www.twitter.com"><!-- rasterized frame --><img class="temp_no_img_src" id="u1830_img" alt="" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-twitter-anami-u1830.png?crc=125680237" data-image-width="49" src="images/blank.gif?crc=4208392903"/></a>
+			<a class="nonblock nontext grpelem" id="u1823" href="http://www.instagram.com"><!-- rasterized frame --><img class="temp_no_img_src" id="u1823_img" alt="" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-instagram-anami-u1823.png?crc=95468281" data-image-width="46" src="images/blank.gif?crc=4208392903"/></a>
+			<a class="nonblock nontext grpelem" id="u1845" href="http://www.youtube.com"><!-- rasterized frame --><img class="temp_no_img_src" id="u1845_img" alt="" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-youtube-anami-u1845.png?crc=924949" data-image-width="48" src="images/blank.gif?crc=4208392903"/></a>
+			</div>
+			</div>
+			<div class="clip_frame clearfix grpelem" id="u514"><!-- image -->
+			<img class="position_content temp_no_img_src shared_content" id="u514_img" data-orig-src="images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-mandala-derecho-footer.png?crc=4122074249" alt="" width="263" height="315" src="images/blank.gif?crc=4208392903" data-content-guid="u514_img_content"/>
+			</div>
+		</div>
+	</div>
 	</footer><!-- #colophon -->
+	
 
   <!-- Other scripts -->
   <script type="text/javascript">
