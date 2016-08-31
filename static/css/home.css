@@ -1,0 +1,22 @@
+.wrapper{
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+#home-blog, #home-products {
+    width: 100%;
+}
+
+.home-hero{
+    width: 100%;
+    background-image: url(/symphony.png) !important;
+    background-color: #F6F5FB;
+    background-repeat: repeat;
+}
+
+#feature{
+    float: left;
+
+}
