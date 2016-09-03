@@ -35,6 +35,9 @@ function anami_setup() {
 	 */
 	add_theme_support( 'title-tag' );
 
+    // Register Custom Navigation Walker
+
+
 	/*
 	 * Enable support for Post Thumbnails on posts and pages.
 	 *
@@ -161,3 +164,14 @@ $args = array(
     'default-image' => get_template_directory_uri() . '/images/header.jpg',
 );
 add_theme_support( 'custom-header', $args );
+
+/**
+ * ActiveMenu_support
+ */
+add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
+function special_nav_class($classes, $item){
+    if( in_array('current-menu-item', $classes) ){
+        $classes[] = 'active ';
+    }
+    return $classes;
+}
