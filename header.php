@@ -41,37 +41,37 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'anami' ); ?></a>
 
 
-<header >
-   <div class=""><!-- image -->
-    <img alt="Adamí" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>">
-   </div>
+    <header >
+       <div class=""><!-- image -->
+        <img alt="Adamí" src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>">
+       </div>
 
 
 
 
-    <div id="anami-bootstrap-menu" class="navbar navbar-default " role="navigation">
-        <div class="container-fluid">
-            <div class="navbar-header"><a href="<?php echo esc_url( home_url()); ?>/inicio" class="navbar-brand">
-                    <img id="" alt="" width="223" height="113" src="<?php echo(get_template_directory_uri()); ?>/images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-superior-u219.png?crc=15017676"/>
-                </a>
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="collapse navbar-collapse navbar-menubuilder">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">Home</a>
-                    </li>
-                    <li><a href="/products">Products</a>
-                    </li>
-                    <li><a href="/about-us">About Us</a>
-                    </li>
-                    <li><a href="/contact">Contact Us</a>
-                    </li>
-                </ul>
+        <div id="anami-bootstrap-menu" class="navbar navbar-default " role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header"><a href="<?php echo esc_url( home_url()); ?>/inicio" class="navbar-brand">
+                        <img id="" alt="" width="223" height="113" src="<?php echo(get_template_directory_uri()); ?>/images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-superior-u219.png?crc=15017676"/>
+                    </a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse navbar-menubuilder">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="/">Home</a>
+                        </li>
+                        <li><a href="/products">Products</a>
+                        </li>
+                        <li><a href="/about-us">About Us</a>
+                        </li>
+                        <li><a href="/contact">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
 
-</header><!-- #masthead -->
+    </header><!-- #masthead -->
 
 <div id="content" class="site-content">

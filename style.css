@@ -920,9 +920,16 @@ a:active {
 	font-weight: 700;
 }
 
+strong {
+	font-weight: bold;
+	font-size: 105%;
+}
 
+p {
+	line-height: 140%;
+}
 
-.summary entry-summary h1 {
+.summary h1 {
 	padding: 1em;
 
 }
@@ -964,12 +971,6 @@ a:active {
 	padding-bottom: 1em;
 }
 
-#colophon {
-	background-color: #0FA3A3;
-	margin-left: 0 !important;
-	margin-right: 0 !important;
-}
-
 #featured{
     margin-top: 100px;
 }
@@ -1009,15 +1010,6 @@ a:active {
 
 #menuu322 {
 	margin-top: 20px;
-}
-
-strong { 
-    font-weight: bold;
-	font-size: 105%;
-}
-
-p {
-	line-height: 140%;
 }
 
 .btn {
@@ -1121,4 +1113,50 @@ p {
 		text-align: center;
 		border-left: #F6F5FB solid 0px;
 	}
+	#u504 {
+		position: absolute;
+		left: 10000px;
+	}
+	#u514 {
+		position: absolute;
+		left: 10000px;
+	}
+
+
+
+	#u1858-4{
+		background-color:transparent;
+		color:#FFFFFF;
+		line-height:18px;
+		font-size:18px;
+		font-family:DejaVuSans, Tahoma, Geneva, sans-serif;
+		font-weight:bold;
+		position: absolute;
+	}
+
+	#u1855 {
+		width: 200%;
+		top:20px;
+		right: 40px;
+	}
+
+	#u1861-8 {
+		width: 200%;
+		position: relative;
+		right: 80px;
+		padding: 20px 0;
+	}
+
 }
+/* === Footer Bootstrap === */
+#colophon {
+	background-color: #0FA3A3;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+
+
+
+
