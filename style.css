@@ -1,14 +1,14 @@
 /*
 Theme Name: Anami
-Theme URI: http://underscores.me/
+Theme URI: http://www.brcreativo.com/
 Author: BRCreativo
-Author URI: http://anami.com.co
-Description: Description
-Version: 0.9.5
+Author URI: http://www.brcreativo.com/
+Description: Custom wordpress theme for Anami in Medellin, Colombia
+Version: 1.2.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: anami
-Tags:
+Tags: Yoga, es
 
 This theme, like WordPress, is licensed under the GPL.
 
@@ -918,7 +918,10 @@ h1 {
 	font-size: 1.3846153846em; }
 
 h2 {
-	font-size: 1.2307692308em; }
+	font-size: 1.2307692308em;
+	text-align: justify;
+	text-justify: inter-word;
+}
 
 h3 {
 	font-size: 1.4615384615em; }
@@ -1364,6 +1367,8 @@ p {
 	line-height: 140%;
 }
 
+
+
 .summary h1 {
 	padding: 1em;
 
@@ -1383,6 +1388,7 @@ p {
 	color: #312287 !important;
 	line-height: 105%;
 }
+
 
 #post-content {
 	float: left;
@@ -1445,6 +1451,10 @@ p {
 
 #menuu322 {
 	margin-top: 20px;
+}
+
+.page-title{
+	color: #5CA1A1 !important;
 }
 
 .search-submit,
@@ -1514,6 +1524,8 @@ p {
 .comment-list{
 	padding: 15px 0;
 }
+
+
 
 /* === NAVBAR === */
 .navbar {
@@ -1640,9 +1652,5 @@ p {
 	margin-right: 0;
 	clear: both;
 }
-
-
-
-
 
 
