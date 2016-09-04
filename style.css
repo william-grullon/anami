@@ -878,6 +878,440 @@ dt,dd,ul,ol,li,nav,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,
 # Made by william grullon
 --------------------------------------------------------------*/
 
+/* Typography resets */
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+	direction: ltr; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: DejaVuSans, Helvetica, Arial, sans-serif;
+	font-style: normal;
+	text-rendering: optimizeLegibility;
+	margin-top: 0.2em;
+	margin-bottom: 0.5em;
+	line-height: 1.1692307692em; }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	font-size: 60%;
+	color: #4d4d4d;
+	line-height: 0; }
+
+h1 {
+	font-size: 1.3846153846em; }
+
+h2 {
+	font-size: 1.2307692308em; }
+
+h3 {
+	font-size: 1.4615384615em; }
+
+h4 {
+	font-size: 1.1538461538em; }
+
+h5 {
+	font-size: 1.3076923077em; }
+
+h6 {
+	font-size: 0.8em; }
+
+hr {
+	border: solid #ddd;
+	border-width: 1px 0 0;
+	clear: both;
+	height: 0; }
+
+/* Helpful Typography Defaults */
+em,
+i {
+	font-style: italic;
+	line-height: inherit; }
+
+strong,
+b {
+	font-family: DejaVuSans-Bold;
+	line-height: inherit; }
+
+small {
+	font-size: 60%;
+	line-height: inherit; }
+
+code {
+	font-family: Consolas, "Liberation Mono", Courier, monospace;
+	font-weight: bold;
+	color: #7f0a0c; }
+
+/* Abbreviations */
+abbr,
+acronym {
+	text-transform: uppercase;
+	font-size: 90%;
+	color: #333;
+	border-bottom: 1px dotted #ddd;
+	cursor: help; }
+
+abbr {
+	text-transform: none; }
+
+/* Blockquotes */
+blockquote {
+	margin: 0 0 1.5384615385em;
+	padding: 0.6923076923em 1.5384615385em 0 1.4615384615em;
+	border-left: 5px solid #ddd; }
+blockquote cite {
+	display: block;
+	font-size: 1em;
+	color: #333333; }
+blockquote cite:before {
+	content: "\2014 \0020"; }
+blockquote cite a,
+blockquote cite a:visited {
+	color: #333333; }
+
+blockquote,
+blockquote p {
+	line-height: 1.6;
+	color: #4d4d4d; }
+
+/* Standard Forms */
+form {
+	margin: 0 0 1.2307692308em; }
+
+/* Using forms within rows, we need to set some defaults */
+form .row .row {
+	margin: 0 -0.6153846154em; }
+form .row .row .column,
+form .row .row .columns {
+	padding: 0 0.6153846154em; }
+form .row .row.collapse {
+	margin: 0; }
+form .row .row.collapse .column,
+form .row .row.collapse .columns {
+	padding: 0; }
+
+form .row input.column,
+form .row input.columns,
+form .row textarea.column,
+form .row textarea.columns {
+	padding-left: 0.6153846154em; }
+
+/* Label Styles */
+label {
+	font-size: 1em;
+	color: #4d4d4d;
+	cursor: pointer;
+	display: block;
+	font-weight: 500;
+	margin-bottom: 0.2307692308em; }
+label.right {
+	float: none;
+	text-align: right; }
+label.inline {
+	margin: 0 0 1.2307692308em 0;
+	padding: 0.7692307692em 0; }
+
+/* Attach elements to the beginning or end of an input */
+.prefix,
+.postfix {
+	display: block;
+	position: relative;
+	z-index: 2;
+	text-align: center;
+	width: 100%;
+	padding-top: 0;
+	padding-bottom: 0;
+	border-style: solid;
+	border-width: 1px;
+	overflow: hidden;
+	font-size: 1em;
+	height: 2.7692307692em;
+	line-height: 2.7692307692em; }
+
+/* Adjust padding, alignment and radius if pre/post element is a button */
+.postfix.button {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	line-height: 2.6153846154em; }
+
+.prefix.button {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	text-align: center;
+	line-height: 2.6153846154em; }
+
+.prefix.button.radius {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-radius-bottomleft: 0px;
+	-moz-border-radius-topleft: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-top-left-radius: 0px; }
+
+.postfix.button.radius {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-radius-topright: 0px;
+	-moz-border-radius-bottomright: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px; }
+
+.prefix.button.round {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-radius-bottomleft: 1000px;
+	-moz-border-radius-topleft: 1000px;
+	-webkit-border-bottom-left-radius: 1000px;
+	-webkit-border-top-left-radius: 1000px;
+	border-bottom-left-radius: 1000px;
+	border-top-left-radius: 1000px; }
+
+.postfix.button.round {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-radius-topright: 1000px;
+	-moz-border-radius-bottomright: 1000px;
+	-webkit-border-top-right-radius: 1000px;
+	-webkit-border-bottom-right-radius: 1000px;
+	border-top-right-radius: 1000px;
+	border-bottom-right-radius: 1000px; }
+
+/* Separate prefix and postfix styles when on span so buttons keep their own */
+span.prefix {
+	background: #f2f2f2;
+	border-color: #d9d9d9;
+	border-right: none;
+	color: #333; }
+span.prefix.radius {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px; }
+
+span.postfix {
+	background: #f2f2f2;
+	border-color: #cccccc;
+	border-left: none;
+	color: #333; }
+span.postfix.radius {
+	-webkit-border-radius: 0;
+	border-radius: 0;
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px; }
+
+/* Input groups will automatically style first and last elements of the group */
+.input-group.radius > *:first-child, .input-group.radius > *:first-child * {
+	-moz-border-radius-bottomleft: 6px;
+	-moz-border-radius-topleft: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	border-bottom-left-radius: 6px;
+	border-top-left-radius: 6px; }
+
+.input-group.radius > *:last-child, .input-group.radius > *:last-child * {
+	-moz-border-radius-topright: 6px;
+	-moz-border-radius-bottomright: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px; }
+
+.input-group.round > *:first-child, .input-group.round > *:first-child * {
+	-moz-border-radius-bottomleft: 1000px;
+	-moz-border-radius-topleft: 1000px;
+	-webkit-border-bottom-left-radius: 1000px;
+	-webkit-border-top-left-radius: 1000px;
+	border-bottom-left-radius: 1000px;
+	border-top-left-radius: 1000px; }
+
+.input-group.round > *:last-child, .input-group.round > *:last-child * {
+	-moz-border-radius-topright: 1000px;
+	-moz-border-radius-bottomright: 1000px;
+	-webkit-border-top-right-radius: 1000px;
+	-webkit-border-bottom-right-radius: 1000px;
+	border-top-right-radius: 1000px;
+	border-bottom-right-radius: 1000px; }
+
+/* We use this to get basic styling on all basic form elements */
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+	background-color: #fff;
+	font-family: inherit;
+	border: 1px solid #cccccc;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: rgba(0, 0, 0, 0.75);
+	display: block;
+	font-size: 1em;
+	margin: 0 0 1.2307692308em 0;
+	padding: 0.6153846154em;
+	height: 3.2307692308em;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; }
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+	background: #fafafa;
+	outline: none; }
+input[type="text"][disabled],
+input[type="password"][disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="month"][disabled],
+input[type="week"][disabled],
+input[type="email"][disabled],
+input[type="number"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+textarea[disabled] {
+	background-color: #ddd; }
+
+/* Adjust margin for form elements below */
+input[type="file"],
+input[type="checkbox"],
+input[type="radio"],
+select {
+	margin: 0 0 1.2307692308em 0; }
+
+/* Normalize file input width */
+input[type="file"] {
+	width: 100%; }
+
+/* We add basic fieldset styling */
+fieldset {
+	border: solid 1px #ddd;
+	padding: 1.5384615385em;
+	margin: 1.3846153846em 0; }
+fieldset legend {
+	font-weight: bold;
+	background: #fff;
+	padding: 0 0.2307692308em;
+	margin: 0;
+	margin-left: -0.2307692308em; }
+
+/* Error Handling */
+.error input,
+input.error,
+.error textarea,
+textarea.error {
+	border-color: #C60F13;
+	background-color: rgba(198, 15, 19, 0.1); }
+.error input:focus,
+input.error:focus,
+.error textarea:focus,
+textarea.error:focus {
+	background: #fafafa;
+	border-color: #999999; }
+
+.error label,
+label.error {
+	color: #C60F13; }
+
+.error small,
+small.error {
+	display: block;
+	padding: 0.4615384615em 0.3076923077em;
+	margin-top: -1.6153846154em;
+	margin-bottom: 1.2307692308em;
+	font-size: 0.9230769231em;
+	font-weight: bold;
+	background: #C60F13;
+	color: #fff; }
+
+/* Error Handling WooCommerce */
+.woocommerce-invalid input, .woocommerce-invalid input,
+input.woocommerce-invalid,
+.woocommerce-invalid textarea,
+textarea.woocommerce-invalid {
+	border-color: #C60F13;
+	background-color: rgba(198, 15, 19, 0.1); }
+.woocommerce-invalid input:focus, .woocommerce-invalid input:focus,
+input.woocommerce-invalid:focus,
+.woocommerce-invalid textarea:focus,
+textarea.woocommerce-invalid:focus {
+	background: #fafafa;
+	border-color: #999999; }
+
+.woocommerce-invalid label,
+label.woocommerce-invalid {
+	color: #C60F13; }
+
+.woocommerce-invalid small,
+small.woocommerce-invalid {
+	display: block;
+	padding: 0.4615384615em 0.3076923077em;
+	margin-top: -1.6153846154em;
+	margin-bottom: 1.2307692308em;
+	font-size: 0.9230769231em;
+	font-weight: bold;
+	background: #C60F13;
+	color: #fff; }
+
+/*=== Overwrites ===*/
+
 .inicio {
 	margin-top: -35px;
 	padding: 0 0 30px 0;
@@ -886,7 +1320,8 @@ dt,dd,ul,ol,li,nav,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,
 
 .content-area {
 	margin-top: -35px;
-	padding: 50px 5% 30px 5%;
+	padding: 50px 1% 30px 1%;
+	clear: both;
 }
 
 #content {
@@ -1012,6 +1447,26 @@ p {
 	margin-top: 20px;
 }
 
+.search-submit,
+#submit {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-family: DejaVuSans;
+	color: #ffffff;
+	font-size: 18px;
+	background: #5CA1A1;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+.search-submit:hover,
+#submit:hover {
+	background: #D6AD40;
+	text-decoration: none;
+}
+
+
 .btn {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -1038,6 +1493,26 @@ p {
 
 .contact-info{
 	padding: 15px;
+}
+
+.entry-footer {
+	clear: both;
+	padding: 20px 0;
+}
+
+.entry-footer span {
+	padding-right: 15px;
+}
+
+.entry-footer a {
+	font-weight: 600;
+}
+
+.comment-awaiting-moderation,
+.reply,
+.comment-content,
+.comment-list{
+	padding: 15px 0;
 }
 
 /* === NAVBAR === */
@@ -1076,7 +1551,7 @@ p {
 	display: block;
 	text-align: center;
 	padding: 5px 16px;
-	border-left: #322783 solid 1px;
+	border-left: #322783 solid 0px;
 }
 
 #anami-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
@@ -1148,12 +1623,22 @@ p {
 		padding: 20px 0;
 	}
 
+	#post-content,
+	#secondary {
+		width: 100%;
+	}
+
+	.entry-title {
+		text-align: center;
+	}
+
 }
 /* === Footer Bootstrap === */
 #colophon {
 	background-color: #0FA3A3;
 	margin-left: 0;
 	margin-right: 0;
+	clear: both;
 }
 
 
