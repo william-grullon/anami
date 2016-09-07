@@ -914,8 +914,6 @@ h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
 	color: #4d4d4d;
 	line-height: 0; }
 
-h1 {
-	font-size: 1.3846153846em; }
 
 h2 {
 	font-size: 1.2307692308em;
@@ -1344,6 +1342,14 @@ small.woocommerce-invalid {
 	line-height: 120%;
 }
 
+#content h2 {
+	font-family: DejaVuSans;
+	font-size: 1.5em !important;
+	font-weight: bold;
+	padding: 1em 0 1em 0;
+	line-height: 150% !important;
+}
+
 #content a {
 	text-decoration: none !important;
 
@@ -1359,7 +1365,6 @@ a:active {
 
 strong {
 	font-weight: bold;
-	font-size: 105%;
 }
 
 p {
@@ -1682,21 +1687,28 @@ p {
 }
 
 /* === Mailchimp style === */
-#mce-EMAIL {
+#mce-EMAIL,
+#emailm {
 	border: solid 1px grey !important;
+	margin-left: 12px !important;
 	margin-bottom: 15px !important;
 	width: 260px !important;
 	position: relative;
-	bottom: 10px;
-	left: 13px;
+
 }
 
-#mc-embedded-subscribe {
+#mc-embedded-subscribe,
+#enviar {
 	background-color: #1d236f !important;
 	color: #fff !important;
 	padding: 5px 0 !important;
 	text-align: center;
 	font-size: 18px !important;
-	width: 260px !important;
+	width: 280px !important;
+	position: relative;
 	margin-bottom: 20px;
+}
+
+.wc-forward {
+	margin-bottom: 10px !important;
 }
