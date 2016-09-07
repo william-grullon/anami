@@ -1342,12 +1342,19 @@ small.woocommerce-invalid {
 	line-height: 120%;
 }
 
-#content h2 {
+h2 {
 	font-family: DejaVuSans;
-	font-size: 1.5em !important;
+	font-size: 1.5em;
 	font-weight: bold;
-	padding: 1em 0 1em 0;
 	line-height: 150% !important;
+	text-align: justify;
+}
+
+h3 {
+	font-family: DejaVuSans;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 140% !important;
 }
 
 #content a {
@@ -1387,7 +1394,7 @@ p {
 	font-size: 2.2em;
 	padding: 0 0 15px 0;
 	font-weight: 600;
-	line-height: 105%;
+	line-height: 120% !important;
 }
 
 .page-title,
