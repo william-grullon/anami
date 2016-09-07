@@ -1345,7 +1345,7 @@ small.woocommerce-invalid {
 }
 
 #content a {
-	color: #312287 !important;
+	color: #312287;
 	text-decoration: none !important;
 	
 }
@@ -1458,14 +1458,16 @@ p {
 }
 
 .search-submit,
-#submit {
+#submit,
+.ajax_add_to_cart,
+.button{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
 	font-family: DejaVuSans;
-	color: #ffffff;
+	color: #ffffff !important;
 	font-size: 18px;
-	background: #5CA1A1;
+	background: #5CA1A1 !important;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
 }
@@ -1524,8 +1526,6 @@ p {
 .comment-list{
 	padding: 15px 0;
 }
-
-
 
 /* === NAVBAR === */
 .navbar {
@@ -1625,7 +1625,7 @@ p {
 	#u1855 {
 		width: 200%;
 		top:20px;
-		right: 40px;
+		right: 30px;
 	}
 
 	#u1861-8 {
@@ -1643,8 +1643,19 @@ p {
 	.entry-title {
 		text-align: center;
 	}
+}
+
+@media only screen and (max-width: 420px) {
+
+	#u1861-8 {
+		width: 200%;
+		position: relative;
+		right: 50px;
+		padding: 20px 0;
+	}
 
 }
+
 /* === Footer Bootstrap === */
 #colophon {
 	background-color: #0FA3A3;
@@ -1653,4 +1664,27 @@ p {
 	clear: both;
 }
 
+.bg {
+	background-color: #F6F5FB;
+	text-align: justify;
+}
 
+/* === Mailchimp style === */
+#mce-EMAIL {
+	border: solid 1px grey !important;
+	margin-bottom: 15px !important;
+	width: 260px !important;
+	position: relative;
+	bottom: 10px;
+	left: 13px;
+}
+
+#mc-embedded-subscribe {
+	background-color: #1d236f !important;
+	color: #fff !important;
+	padding: 5px 0 !important;
+	text-align: center;
+	font-size: 18px !important;
+	width: 260px !important;
+	margin-bottom: 20px;
+}

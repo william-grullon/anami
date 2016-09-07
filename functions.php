@@ -175,3 +175,9 @@ function special_nav_class($classes, $item){
     }
     return $classes;
 }
+
+/**
+ * Contact Form 7 validation skip
+ */
+
+add_filter( 'wpcf7_validate_configuration', '__return_false' );
