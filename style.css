@@ -12,15 +12,11 @@ Tags: angeles, español, medellin, colombia
 
 This theme, like WordPress, is licensed under the GPL.
 
-Anami is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Underscores is distributed under the terms of the GNU GPL v2 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+Theme coded by William Grullon
 */
 
 /*--------------------------------------------------------------
->>> TABLE OF CONTENTS:
+>>> TABLE OF CONTENTS of Normalizations:
 ----------------------------------------------------------------
 # Normalize
 # Typography
@@ -1311,7 +1307,35 @@ small.woocommerce-invalid {
 	background: #C60F13;
 	color: #fff; }
 
-/*=== Overwrites ===*/
+/*=== Overwrites on Client's feedback ===*/
+
+h2 {
+	font-family: DejaVuSans;
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 150% !important;
+	text-align: justify;
+}
+
+h3 {
+	font-family: DejaVuSans;
+	font-size: 1.4em;
+	font-weight: bold;
+	line-height: 140% !important;
+}
+
+strong {
+	font-weight: bold;
+}
+
+p {
+	line-height: 140%;
+}
+
+.summary h1 {
+	padding: 1em;
+
+}
 
 .inicio {
 	margin-top: -35px;
@@ -1342,24 +1366,8 @@ small.woocommerce-invalid {
 	line-height: 120%;
 }
 
-h2 {
-	font-family: DejaVuSans;
-	font-size: 1.5em;
-	font-weight: bold;
-	line-height: 150% !important;
-	text-align: justify;
-}
-
-h3 {
-	font-family: DejaVuSans;
-	font-size: 1.4em;
-	font-weight: bold;
-	line-height: 140% !important;
-}
-
 #content a {
 	text-decoration: none !important;
-
 }
 
 #content
@@ -1370,24 +1378,15 @@ a:active {
 	font-weight: 700;
 }
 
-strong {
-	font-weight: bold;
-}
-
-p {
-	line-height: 140%;
-}
-
-.summary h1 {
-	padding: 1em;
-
-}
-
 .comments-title {
 	font-size: 1.8em;
 	color: #312287;
 	font-weight: bold;
 	padding: 1em 0 1em 0;
+}
+
+.comments-link a {
+	padding-right: 5px;
 }
 
 .entry-title {
@@ -1425,11 +1424,6 @@ p {
 	padding: 1%;
 	width: 27%;
 }
-
-.comments-link a {
-	padding-right: 5px;
-}
-
 
 
 #featured{
@@ -1473,7 +1467,7 @@ p {
 	margin-top: 20px;
 }
 
-
+/*===  Buttons ===*/
 .search-submit,
 #submit,
 .ajax_add_to_cart,
@@ -1521,6 +1515,7 @@ p {
   text-decoration: none;
 }
 
+/*=== Extras Style ===*/
 #email-home {
 	width: 90% !important;
 	 border: solid 1px grey;
@@ -1529,19 +1524,6 @@ p {
 
 .contact-info{
 	padding: 15px;
-}
-
-.entry-footer {
-	clear: both;
-	padding: 20px 0;
-}
-
-.entry-footer span {
-	padding-right: 15px;
-}
-
-.entry-footer a {
-	font-weight: 600;
 }
 
 .comment-awaiting-moderation,
@@ -1691,6 +1673,19 @@ p {
 .bg {
 	background-color: #F6F5FB;
 	text-align: justify;
+}
+
+.entry-footer {
+	clear: both;
+	padding: 20px 0;
+}
+
+.entry-footer span {
+	padding-right: 15px;
+}
+
+.entry-footer a {
+	font-weight: 600;
 }
 
 /* === Mailchimp style === */
