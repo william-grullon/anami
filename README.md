@@ -1,6 +1,8 @@
 Theme Name: Anami
+
 Theme URI: http://www.anami.com.co/
-Author: BRCreativo
+
+Author: William Grullon | william.grullon at g3hd.com
 Author URI: http://www.brcreativo.com/
 Description: Custom wordpress theme for Anami in Medellin, Colombia
 Version: 1.3.2
