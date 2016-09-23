@@ -1687,6 +1687,20 @@ a:active {
 .entry-footer a {
 	font-weight: 600;
 }
+/*header strech*/
+#hero img {
+	width: 100%;
+}
+/*Social Icons*/
+#u1855 {
+	position: relative;
+	bottom: 10px;
+	left: 50px;
+}
+
+#u1823 {
+	left: 21.67%;
+}
 
 /* === Mailchimp style === */
 #mce-EMAIL,

@@ -36,9 +36,7 @@
         </div>
         <div class="clearfix colelem" id="u1855"><!-- group -->
              <a class="nonblock nontext grpelem" id="u1815" href="http://www.facebook.com"><!-- rasterized frame --><img id="u1815_img" alt="" src="<?php echo(get_template_directory_uri()); ?>/images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-facebook-anami-u1815.png?crc=106572820" data-image-width="25"/></a>
-             <a class="nonblock nontext grpelem" id="u1830" href="http://www.twitter.com"><!-- rasterized frame --><img id="u1830_img" alt="" src="<?php echo(get_template_directory_uri()); ?>/images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-twitter-anami-u1830.png?crc=125680237" data-image-width="49"/></a>
              <a class="nonblock nontext grpelem" id="u1823" href="http://www.instagram.com"><!-- rasterized frame --><img id="u1823_img" alt="" src="<?php echo(get_template_directory_uri()); ?>/images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-instagram-anami-u1823.png?crc=95468281" data-image-width="46"/></a>
-             <a class="nonblock nontext grpelem" id="u1845" href="http://www.youtube.com"><!-- rasterized frame --><img id="u1845_img" alt="" src="<?php echo(get_template_directory_uri()); ?>/images/mensaje-de-los-angeles-y-mensajes-espirituales-anami-logo-footer-youtube-anami-u1845.png?crc=924949" data-image-width="48"/></a>
         </div>
    </div>
 
